@@ -16,8 +16,8 @@ class Guvi:
 
 
     def login(self):
-        email = "sudhirraja1996@gmail.com"
-        password = "17031996Sr@"
+        email = ""
+        password = ""
         self.driver.get(self.url)
         time.sleep(5)
 
