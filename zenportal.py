@@ -10,7 +10,6 @@ class Guvi:
     url = "https://www.zenclass.in/login"
     driver = webdriver.Firefox()
     data = requests.get(url)
-    soup = BeautifulSoup(data.content, 'lxml')
     driver.maximize_window()
 #This is a login page code
 
