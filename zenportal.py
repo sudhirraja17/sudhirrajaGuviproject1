@@ -35,7 +35,7 @@ class Guvi:
         login1.click()
         time.sleep(3)
 
-    def queue(self):
+    def query(self):
         heading = "Guvi Python AT – 1 &2 Automation Project"
         body = "This is a Project Test Code Running for the Python Automation – 1&2 Project Given by mentor Mr. Suman Gangopadhyay."
 
@@ -116,13 +116,13 @@ s = Guvi()
 
 s.login()
 
-s.queue()
+s.query()
 
-s.queue()
+s.query()
 
-s.queue()
+s.query()
 
-s.queue()
+s.query()
 
-s.queue()
+s.query()
 
