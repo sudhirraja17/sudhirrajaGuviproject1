@@ -1,7 +1,4 @@
 import main
-from bs4 import BeautifulSoup
-import requests
-import lxml
 import pytest
 
 g = main.Guvi()
