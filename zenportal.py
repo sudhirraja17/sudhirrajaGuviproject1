@@ -171,17 +171,4 @@ class Guvi:
         create_button_xpath.click()
         time.sleep(3)
 
-        # return the query header
-        self.driver.get("https://www.zenclass.in/queries")
-        time.sleep(5)
-        query_result = self.driver.execute_script(
-            'return document.getElementsByClassName'
-            '("Queries_sq__tile__title__I0aWK")[0].innerText')
-        time.sleep(5)
-        self.driver.close()
-        return query_result
-
-
-
 g = Guvi()
-
