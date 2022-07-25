@@ -40,11 +40,11 @@ def test_main_menu():
 # test for raise a query in zen portal
 @pytest.mark.thrid
 def test_createquery():
-    """ check the header of the newly created query in the query page"""
-    query_text_head = "Guvi Python AT - 1 &2 Automation Project"
-    assert query_text_head in main.g.query
-    assert query_text_head in main.g.query
-    assert query_text_head in main.g.query
-    assert query_text_head in main.g.query
-    assert query_text_head in main.g.query
+  g.query()
+  g.query()
+  g.query()
+  g.query()
+  g.query()
+  assert g.query() == g.query()
+   
 
