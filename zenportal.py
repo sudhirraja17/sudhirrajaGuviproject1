@@ -88,7 +88,6 @@ class Guvi:
         return df_fm
 
     # This is a function is created a query
-    @property
     def query(self):
         #This variable is declared a title 'heading' and description 'body' of the query
         heading = "Guvi Python AT – 1 &2 Automation Project"
