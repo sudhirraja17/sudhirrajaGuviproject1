@@ -13,8 +13,8 @@ class Guvi:
 
     # This is a function for login page code
     def login(self):
-        email = "sudhirraja1996@gmail.com"
-        password = "17031996Sr@"
+        email = "emailid"
+        password ="password"
         self.driver.get(self.url)
         # timer For 5 seconds  to load all elements
         time.sleep(5)
